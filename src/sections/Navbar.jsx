@@ -38,7 +38,7 @@ const Navbar = () => {
                     </a>
                     <button onClick={() => setIsOpen(!isOpen)}
                         className="flex cursor-pointer text-neutral-400 hover:text-white focus:outline-none sm:hidden"> 
-                        <img src={isOpen ? "/assets/close.svg" : "/assets/menu.svg"}
+                        <img src={isOpen ? `${import.meta.env.BASE_URL}assets/close.svg` : `${import.meta.env.BASE_URL}assets/menu.svg`}
                         className="w-6 h-6" 
                         alt="toggle"/>
                     </button>

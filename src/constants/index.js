@@ -12,11 +12,11 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/2048.png",
+    image: `${import.meta.env.BASE_URL}assets/projects/2048.png`,
     tags: [
-      { id: 1, name: "RISC-V", path: "/assets/logos/riscv.png" },
-      { id: 2, name: "Assembly", path: "/assets/logos/riscv.png" },
-      { id: 3, name: "Systems Programming", path: "/assets/logos/cplusplus.svg" },
+      { id: 1, name: "RISC-V", path: `${import.meta.env.BASE_URL}assets/logos/riscv.png` },
+      { id: 2, name: "Assembly", path: `${import.meta.env.BASE_URL}assets/logos/riscv.png` },
+      { id: 3, name: "Systems Programming", path: `${import.meta.env.BASE_URL}assets/logos/cplusplus.svg` },
     ],
   },
 
@@ -33,11 +33,11 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/seam-carving.png",
+    image: `${import.meta.env.BASE_URL}assets/projects/seam-carving.png`,
     tags: [
-      { id: 1, name: "C", path: "/assets/logos/c.svg" },
-      { id: 2, name: "Algorithms", path: "/assets/logos/cplusplus.svg" },
-      { id: 3, name: "Dynamic Programming", path: "/assets/logos/cplusplus.svg" },
+      { id: 1, name: "C", path: `${import.meta.env.BASE_URL}assets/logos/c.svg` },
+      { id: 2, name: "Algorithms", path: `${import.meta.env.BASE_URL}assets/logos/cplusplus.svg` },
+      { id: 3, name: "Dynamic Programming", path: `${import.meta.env.BASE_URL}assets/logos/cplusplus.svg` },
     ],
   },
 
@@ -54,11 +54,11 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/wordle.png",
+    image: `${import.meta.env.BASE_URL}assets/projects/wordle.png`,
     tags: [
-      { id: 1, name: "C", path: "/assets/logos/c.svg" },
-      { id: 2, name: "Data Structures", path: "/assets/logos/cplusplus.svg" },
-      { id: 3, name: "Trie", path: "/assets/logos/cplusplus.svg" },
+      { id: 1, name: "C", path: `${import.meta.env.BASE_URL}assets/logos/c.svg` },
+      { id: 2, name: "Data Structures", path: `${import.meta.env.BASE_URL}assets/logos/cplusplus.svg` },
+      { id: 3, name: "Trie", path: `${import.meta.env.BASE_URL}assets/logos/cplusplus.svg` },
     ],
   },
 
@@ -75,12 +75,12 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/sentiment.jpg",
+    image: `${import.meta.env.BASE_URL}assets/projects/sentiment.jpg`,
     tags: [
-      { id: 1, name: "Python", path: "/assets/logos/python.svg" },
-      { id: 2, name: "NLP", path: "/assets/logos/python.svg" },
-      { id: 3, name: "IMAP", path: "/assets/logos/python.svg" },
-      { id: 4, name: "GUI", path: "/assets/logos/python.svg" },
+      { id: 1, name: "Python", path: `${import.meta.env.BASE_URL}assets/logos/python.svg` },
+      { id: 2, name: "NLP", path: `${import.meta.env.BASE_URL}assets/logos/python.svg` },
+      { id: 3, name: "IMAP", path: `${import.meta.env.BASE_URL}assets/logos/python.svg` },
+      { id: 4, name: "GUI", path: `${import.meta.env.BASE_URL}assets/logos/python.svg` },
     ],
   },
 
@@ -116,11 +116,11 @@ export const mySocials = [
   {
     name: "Linkedin",
     href: "www.linkedin.com/in/abdulrehmanhasan",
-    icon: "/assets/socials/linkedIn.svg",
+    icon: `${import.meta.env.BASE_URL}assets/socials/linkedIn.svg`,
   },
-  {
+  /*{
     name: "Email",
     href: "abdulrehmanhasan6@gmail.com",
-    icon: "/assets/socials/email.png",
-  },
+    icon: `${import.meta.env.BASE_URL}assets/socials/email.png`,
+  },*/
 ];

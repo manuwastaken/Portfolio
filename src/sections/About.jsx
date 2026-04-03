@@ -14,7 +14,7 @@ const About = () => {
         {/* Grid 1: About Me */}
         <div className="flex items-end grid-default-color grid-1">
           <img
-            src="assets/coding-pov.png"
+            src={`${import.meta.env.BASE_URL}assets/coding-pov.png`}
             className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5] "
           />
           //<div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-transparent to-transparent pointer-events-none"></div>
@@ -57,7 +57,7 @@ const About = () => {
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-12 h-12 rounded-full bg-midnight hover:bg-gray-700 transition-colors"
               >
-                <img src="/assets/socials/linkedIn.svg" alt="LinkedIn" className="w-6 h-6" />
+                <img src={`${import.meta.env.BASE_URL}assets/socials/linkedIn.svg`} alt="LinkedIn" className="w-6 h-6" />
               </a>
               <a
                 href="https://github.com/manuwastaken"
@@ -65,7 +65,7 @@ const About = () => {
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-12 h-12 rounded-full bg-midnight hover:bg-gray-700 transition-colors"
               >
-                <img src="/assets/logos/github.png" alt="GitHub" className="w-10 h-10" />
+                <img src={`${import.meta.env.BASE_URL}assets/logos/github.png`} alt="GitHub" className="w-10 h-10" />
               </a>
             </div>
           </div>
