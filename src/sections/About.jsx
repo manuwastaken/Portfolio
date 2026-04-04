@@ -22,9 +22,8 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi, I'm Abdul Rehman</p>    
             <p className="subtext">
-              Hi, I'm Abdul Rehman. I’m a Computer Science student at Saarland University, specializing in software engineering and machine learning. I have hands-on experience in C, C++, and Java, with solid foundations in OOP, data structures, and algorithms.
-
-            I enjoy solving challenging problems and building practical applications. I’m currently seeking a working student position to contribute to real-world projects while growing as a developer.🚀💻
+              Hi, I'm Abdul Rehman. I'm a Computer Science student at Saarland University, specializing in software engineering and machine learning. I have hands-on experience in C, C++, and Java, with solid foundations in OOP, data structures, and algorithms.
+              I enjoy solving challenging problems and building practical applications. 
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/1 sm:h-1/1 bg-linear-to-t from-[#080912]"/>
@@ -52,7 +51,7 @@ const About = () => {
             <div className="flex items-center justify-center gap-6">
               <CopyEmailButton />
               <a
-                href="https://www.linkedin.com/abdulrehmanhasan"
+                href="https://www.linkedin.com/in/abdulrehmanhasan/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-12 h-12 rounded-full bg-midnight hover:bg-gray-700 transition-colors"

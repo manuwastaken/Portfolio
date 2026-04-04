@@ -115,7 +115,7 @@ export const mySocials = [
   },*/
   {
     name: "Linkedin",
-    href: "www.linkedin.com/in/abdulrehmanhasan",
+    href: "https://www.linkedin.com/in/abdulrehmanhasan/",
     icon: `${import.meta.env.BASE_URL}assets/socials/linkedIn.svg`,
   },
   /*{
