@@ -1,6 +1,4 @@
 import { useRef } from "react";
-import Card from "../components/Card";
-import { Globe } from "../components/globe";
 import CopyEmailButton from "../components/CopyEmailButton";
 import { Frameworks } from "../components/FrameWorks";
 
@@ -22,7 +20,7 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi, I'm Abdul Rehman</p>    
             <p className="subtext">
-              Hi, I'm Abdul Rehman. I'm a Computer Science student at Saarland University, specializing in software engineering and machine learning. I have hands-on experience in C, C++, and Java, with solid foundations in OOP, data structures, and algorithms.
+              I'm a Computer Science student at Saarland University, specializing in software engineering and machine learning. I have hands-on experience in C, C++, and Java, with solid foundations in OOP, data structures, and algorithms.
               I enjoy solving challenging problems and building practical applications. 
             </p>
           </div>
